@@ -128,15 +128,19 @@
 					<artifactId>sonar-maven-plugin</artifactId>
 					<version>3.4.0.905</version>
 				</plugin>
+				
 				<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.7.0</version>
+    <version>3.1</version>
     <configuration>
-        <release>8</release>
-        <verbose>true</verbose>
+        <fork>true</fork>
+        <executable>C:\Program Files\Java\jdk-14.0.2\bin\javac.exe</executable>
+        <source>1.8</source>
+        <target>1.8</target>
+        <compilerArgument>-XDignore.symbol.file</compilerArgument>
     </configuration>
 </plugin>
+
 			</plugins>
 		</pluginManagement>
 	</build>
