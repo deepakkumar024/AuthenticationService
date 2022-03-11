@@ -15,9 +15,15 @@
 	<name>authenticationms</name>
 	<description>Authentication MicroService for Retail Bank Application</description>
 
-	<properties>
+	<!-- <properties>
 		<java.version>8</java.version>
-	</properties>
+	</properties> -->
+	
+	<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
 
 	<dependencies>
 
