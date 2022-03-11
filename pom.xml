@@ -15,15 +15,9 @@
 	<name>authenticationms</name>
 	<description>Authentication MicroService for Retail Bank Application</description>
 
-	<!-- <properties>
-		<java.version>8</java.version>
-	</properties> -->
-	
 	<properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
+		<java.version>8</java.version>
+	</properties>
 
 	<dependencies>
 
@@ -121,11 +115,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-pmd-plugin</artifactId>
 				<version>2.5</version>
-			</plugin>
+			</plugin> -->
 		</plugins>
 		<pluginManagement>
 			<plugins>
@@ -134,7 +128,6 @@
 					<artifactId>sonar-maven-plugin</artifactId>
 					<version>3.4.0.905</version>
 				</plugin>
-				
 			</plugins>
 		</pluginManagement>
 	</build>
